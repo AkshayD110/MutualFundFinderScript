@@ -20,6 +20,7 @@ def main(path):
         """gets the number of columns and rows in the sheet"""
         noColms=currentSheet.ncols
         noRows=currentSheet.nrows
+        
         #print noRows, noColms
 
         """iterates through all the columns and appending  the values"""

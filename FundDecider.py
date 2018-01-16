@@ -4,7 +4,7 @@ import collections
 import unicodedata
 
 
-def readFundbook(path):
+def main(path):
     fundBook=xlrd.open_workbook(path)
     numberOfSheets=fundBook.nsheets
     iterator=0
@@ -66,5 +66,8 @@ def checkConcent():
     print (freqConcept)
 
 
-readFundbook(r"C:\Users\akshdesh.ORADEV\Documents\money\OnlyFund.xlsx")
+main(r"C:\Users\akshdesh.ORADEV\Documents\money\OnlyFund.xlsx")
+
+if __name__ == '__main__':
+    main()
 #checkConcent()

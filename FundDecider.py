@@ -42,9 +42,7 @@ def main(path):
     print ("Below funds have been suggested out of " + str(numberOfSheets) + " iterations")
     print (frequency.most_common()) #sorts the collection by values
 
-    #print (frequency.values())
-    #print finalListOfFunds
-    #print type(finalListOfFunds)
+
 
 
 def checkConcent():

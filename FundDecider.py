@@ -32,7 +32,6 @@ def main(path):
 
         iterator=iterator+1
         #print (fundBook.sheet_by_index(iterator).nrows)
-
         #https://stackoverflow.com/questions/509211/understanding-pythons-slice-notation
         #finalListOfFunds.append(thisFund) #final list which will have all the fund names in string format
 
